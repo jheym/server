@@ -43,7 +43,7 @@ var options = {
 	[aliasify],
 	[babelify, {
 	    global: true,
-	    ignore: /\/node_modules\/(?!syntaxhighlighter|brush-)/,
+	    ignore: [/\/node_modules\/(?!syntaxhighlighter|brush-)/],
 	    "presets": [
 		["env", {
 		    "targets": {
@@ -119,7 +119,7 @@ var standaloneOptions = {
 	[aliasify],
 	[babelify, {
 	    global: true,
-	    ignore: /\/node_modules\/(?!syntaxhighlighter|brush-)/,	    
+	    ignore: [/\/node_modules\/(?!syntaxhighlighter|brush-)/],	    
 	    "presets": [
 		["env", {
 		    "targets": {
