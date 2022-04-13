@@ -45,7 +45,7 @@ var options = {
 	    global: true,
 	    ignore: [/\/node_modules\/(?!syntaxhighlighter|brush-)/],
 	    "presets": [
-		["env", {
+		["@babel/preset-env", {
 		    "targets": {
 			"browsers": ["last 2 versions", "safari >= 7"]
 		    }
